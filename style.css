@@ -1,3 +1,4 @@
+/* Base styles for the entire page: font, background, spacing, and text color */
 body {
   font-family: 'Segoe UI', sans-serif;
   line-height: 1.6;
@@ -7,6 +8,7 @@ body {
   color: #333;
 }
 
+/* Header section: displays the main title and welcome message with a colored background */
 header {
   background-color: #007acc;
   color: white;
@@ -14,29 +16,35 @@ header {
   text-align: center;
 }
 
+/* Main content container: sets max width and centers content */
 main {
   padding: 2rem;
   max-width: 800px;
   margin: auto;
 }
 
+/* Each section (About, Projects, Contact): adds spacing below */
 section {
   margin-bottom: 2rem;
 }
 
+/* Section headings: styled with accent color */
 h2 {
   color: #007acc;
 }
 
+/* Link styling: blue color with no underline by default */
 a {
   color: #007acc;
   text-decoration: none;
 }
 
+/* Link hover effect: adds underline when mouse is over the link */
 a:hover {
   text-decoration: underline;
 }
 
+/* Footer styling: dark background with centered light text */
 footer {
   background-color: #222;
   color: #ddd;
