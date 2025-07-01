@@ -52,17 +52,20 @@ footer {
   padding: 1rem;
 }
 
-/* Button styling for the introduction section */
+/* Button styling: clean, modern, matches header and links */
 button {
-  background-color: #007acc;
-  color: white;
-  padding: 10px 20px;
-  font-size: 16px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
+  background-color: #007acc;       /* Same blue as header and links */
+  color: white;                    /* White text for contrast */
+  padding: 10px 24px;              /* Comfortable size */
+  font-size: 16px;                 /* Readable text */
+  border: none;                    /* No border */
+  border-radius: 6px;              /* Slightly rounded corners for modern feel */
+  cursor: pointer;                 /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth color change on hover */
+  margin-top: 1rem;                /* Spacing above if needed */
 }
 
+/* On hover: darker shade of blue */
 button:hover {
   background-color: #005f99;
 }
