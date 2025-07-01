@@ -51,3 +51,18 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+
+/* Button styling for the introduction section */
+button {
+  background-color: #007acc;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005f99;
+}
