@@ -1,2 +1,2 @@
 # HTML-Assignment-1
-HTML repo
+My first Git repository using GitHub Desktop
